@@ -1,8 +1,8 @@
-public class stack_liner {
+public class stack_array {
     int[] array;
     int top;
     int size;
-    stack_liner(int maxSize){
+    stack_array(int maxSize){
         size = maxSize;
         array = new int[size];
         top = -1;
