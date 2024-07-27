@@ -12,6 +12,9 @@ public class list_array {
     public boolean isListFull(){
         return count == size;
     }
+    public int listSize(){
+        return count;
+    }
     public void insertLast(int value){
         if(isListFull()){
             System.out.println("List is full!");
@@ -77,5 +80,21 @@ public class list_array {
             }
             System.out.println(" ");
         }
+    }
+    public static void main(String[] args) {
+        list_array list = new list_array(5);
+        list.insertLast(10);
+        list.insertLast(20);
+        list.insertLast(30);
+        list.insertLast(40);
+        list.insertLast(50);
+        list.traverseList();
+        list.insertList(2, 25);
+        list.traverseList();
+        list.deleteList(3);
+        list.traverseList();
+        list.retrieveList(2);
+        list.replaceList(2, 35);
+        list.traverseList();
     }
 }
