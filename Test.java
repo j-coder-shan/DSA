@@ -57,6 +57,18 @@ public class Test {
         queueLinked.deQueue();
         queueLinked.deQueue();
 
+        ArrayDeQueue deQueue = new ArrayDeQueue(5);
+        deQueue.insertFront(10);
+        deQueue.insertFront(20);
+        deQueue.insertRear(30);
+        deQueue.insertRear(40);
+        System.out.println(STR."Front element: \{deQueue.getFront()}");
+        System.out.println(STR."Rear element: \{deQueue.getRear()}");
+        System.out.println(STR."Deleted front element: \{deQueue.deleteFront()}");
+        System.out.println(STR."Deleted rear element: \{deQueue.deleteRear()}");
+        System.out.println(STR."Front element: \{deQueue.getFront()}");
+        System.out.println(STR."Rear element: \{deQueue.getRear()}");
+
 
     }
 }
