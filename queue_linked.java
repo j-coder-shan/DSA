@@ -8,6 +8,7 @@ public class queue_linked {
     queue_linked(int maxSize){
         size = maxSize;
         front = rear = null;
+        count = 0;
     }
     private boolean isQueueEmpty() {
         return count == 0;

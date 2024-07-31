@@ -26,7 +26,6 @@ public class stack_array {
     public void pop(){
         if(isStackEmpty()){
             System.out.println("Stack is empty");
-            return;
         }
         else {
             System.out.println(STR."Removing value: \{array[top--]}");
@@ -35,7 +34,6 @@ public class stack_array {
     public void peek(){
         if(isStackEmpty()){
             System.out.println("Stack is empty");
-            return;
         }
         else {
             System.out.println(STR."Top value: \{array[top]}");
@@ -44,7 +42,6 @@ public class stack_array {
     public void display(){
         if(isStackEmpty()){
             System.out.println("Stack is empty");
-            return;
         }
         else {
             System.out.println("Stack elements are:");
