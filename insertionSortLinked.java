@@ -1,4 +1,4 @@
-public class insertionSort_linked {
+public class insertionSortLinked {
     class Node{
         int data;
         Node next;
@@ -7,7 +7,7 @@ public class insertionSort_linked {
     static Node sorted;
     int count;
     String name;
-    insertionSort_linked(){
+    insertionSortLinked(){
         head = null;
         count = 0;
     }
@@ -31,7 +31,7 @@ public class insertionSort_linked {
         }
         count++;
     }
-    public static void printList(insertionSort_linked list, String name){
+    public static void printList(insertionSortLinked list, String name){
         System.out.println(STR."\{name}list:");
         Node current = list.head;
         while (current != null){
@@ -40,7 +40,7 @@ public class insertionSort_linked {
         }
         System.out.println(" ");
     }
-    public static void sort(insertionSort_linked list){
+    public static void sort(insertionSortLinked list){
         sorted = null;
         Node current = list.head;
         while (current != null){
@@ -69,7 +69,7 @@ public class insertionSort_linked {
     }
 
     public static void main(String[] args) {
-        insertionSort_linked list = new insertionSort_linked();
+        insertionSortLinked list = new insertionSortLinked();
         list.insertLast(25);
         list.insertLast(812);
         list.insertLast(467);

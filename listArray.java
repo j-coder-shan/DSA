@@ -1,7 +1,7 @@
-public class list_array {
+public class listArray {
     int[] list;
     int size, count;
-    list_array(int maxSize){
+    listArray(int maxSize){
         size = maxSize;
         list = new int[size];
         count = 0;
@@ -82,7 +82,7 @@ public class list_array {
         }
     }
     public static void main(String[] args) {
-        list_array list = new list_array(5);
+        listArray list = new listArray(5);
         list.insertLast(10);
         list.insertLast(20);
         list.insertLast(30);

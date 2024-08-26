@@ -1,4 +1,4 @@
-public class stack_linked {
+public class stackLinked {
     static class Node {
         int data;
         Node next;
@@ -9,7 +9,7 @@ public class stack_linked {
     }
     Node top;
     int size;
-    stack_linked(){
+    stackLinked(){
         top = null;
         size = 0;
     }

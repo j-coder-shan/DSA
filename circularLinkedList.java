@@ -1,11 +1,11 @@
-public class circular_linked_list {
+public class circularLinkedList {
     class Node{
         int data;
         Node next;
     }
     Node tail;
     int count;
-    circular_linked_list(){
+    circularLinkedList(){
         tail = null;
         count = 0;
     }
@@ -78,7 +78,7 @@ public class circular_linked_list {
         }
     }
     public static void main(String[] args) {
-        circular_linked_list cll = new circular_linked_list();
+        circularLinkedList cll = new circularLinkedList();
         cll.insertLast(10);
         cll.insertLast(20);
         cll.insertLast(30);

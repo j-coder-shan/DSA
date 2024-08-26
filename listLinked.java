@@ -1,11 +1,11 @@
-public class list_Linked {
+public class listLinked {
     class Node{
         int data;
         Node next;
     }
     Node head;
     int count;
-    list_Linked(){
+    listLinked(){
         head = null;
         count = 0;
     }
@@ -79,7 +79,7 @@ public class list_Linked {
         }
     }
     public static void main(String[] args) {
-        list_Linked list = new list_Linked();
+        listLinked list = new listLinked();
         list.insertLast(10);
         list.insertLast(20);
         list.insertLast(30);
