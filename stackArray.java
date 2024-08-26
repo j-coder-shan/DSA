@@ -1,8 +1,8 @@
-public class stack_array {
+public class stackArray {
     int[] array;
     int top;
     int size;
-    stack_array(int maxSize){
+    stackArray(int maxSize){
         size = maxSize;
         array = new int[size];
         top = -1;

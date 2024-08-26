@@ -1,8 +1,8 @@
-public class queue_linear {
+public class queueLinear {
     int[] array;
     int front, rear, size, count;
 
-    queue_linear(int maxSize){
+    queueLinear(int maxSize){
         size = maxSize;
         array = new int[size];
         front = 0;

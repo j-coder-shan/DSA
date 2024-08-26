@@ -1,7 +1,7 @@
-public class queue_circular {
+public class queueCircular {
     int[] array;
     int front, rear, size, count;
-    queue_circular(int maxSize){
+    queueCircular(int maxSize){
         size = maxSize;
         array = new int[size];
         front = 0;
@@ -42,7 +42,7 @@ public class queue_circular {
         }
     }
     public static void main(String[] args) {
-        queue_circular queue = new queue_circular(5);
+        queueCircular queue = new queueCircular(5);
         queue.enQueue(10);
         queue.enQueue(20);
         queue.enQueue(30);

@@ -1,11 +1,11 @@
-public class queue_linked {
+public class queueLinked {
     static class Node{
         int data;
         Node next;
     }
     Node front, rear;
     int count, size;
-    queue_linked(int maxSize){
+    queueLinked(int maxSize){
         size = maxSize;
         front = rear = null;
         count = 0;
@@ -56,7 +56,7 @@ public class queue_linked {
         }
     }
     public static void main(String[] args) {
-        queue_linked queue = new queue_linked(5);
+        queueLinked queue = new queueLinked(5);
         queue.enQueue(10);
         queue.enQueue(20);
         queue.enQueue(30);

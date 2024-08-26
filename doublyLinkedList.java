@@ -1,11 +1,11 @@
-public class doubly_linked_list {
+public class doublyLinkedList {
     static class Node{
         int data;
         Node next, prev;
     }
     Node head;
     int count;
-    doubly_linked_list(){
+    doublyLinkedList(){
         head = null;
         count = 0;
     }
@@ -101,7 +101,7 @@ public class doubly_linked_list {
         }
     }
     public static void main(String[] args) {
-        doubly_linked_list dll = new doubly_linked_list();
+        doublyLinkedList dll = new doublyLinkedList();
         dll.insertLast(10);
         dll.insertLast(20);
         dll.insertLast(30);
