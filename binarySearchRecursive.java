@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class binarySearch_recursive {
+public class binarySearchRecursive {
     static Scanner scanner = new Scanner(System.in);
     static int[] list;
     private static void insertList() {
